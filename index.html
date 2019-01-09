@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Joshua Ho FED Screen</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Assemble Books -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fed-header">
+      <div class="container">
+        <a class="navbar-brand" href="#">Assemble Books</a>
+      </div>
+    </nav>
+    <main class=container>
+      <h1 id="fed-title">Books</h1>
+      <div class="shelf"> <!-- Book Row -->
+            <div class="shelf-title">
+              <h5>Titles A-M</h5>
+            </div>
+            <div class="row container" id="AthroughM"></div> <!--Append Here-->
+            <div class="shelf-button">
+              <button type="button" name="button">Show More</button>
+            </div>
+      </div>
+      <div class=""> <!-- Book Row -->
+            <h5>Titles N-Z</h5>
+            <div class="row container" id="NthroughZ"></div> <!--Append Here-->
+            <div class="shelf-button">
+              <button type="button" name="button">Show More</button>
+            </div>
+      </div>
+
+      <div class="result">
+
+      </div>
+    </main>
+    <!-- Books -->
+    <footer>
+    <!-- 4 collumns -->
+      <div class="footer container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <b>Assemble Books</b>
+            </div>
+            <div class="col-sm-3">
+              <div class=""><a href="#">Link</a></div>
+              <div class=""><a href="#">Link</a></div>
+              <div class=""><a href="#">Link</a></div>
+            </div>
+            <div class="col-sm-3">
+              <div class=""><a href="#">Link</a></div>
+              <div class=""><a href="#">Link</a></div>
+              <div class=""><a href="#">Link</a></div>
+            </div>
+            <div class="col-sm-3">
+              <div class=""><a href="#">Link</a></div>
+              <div class=""><a href="#">Link</a></div>
+              <div class=""><a href="#">Link</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/books.js" charset="utf-8"></script>
+  <script src="./js/bookstore.js" charset="utf-8"></script>
+</html>
+
+
+
+
+<!-- ## Application Requirements
+* Choose a front end framework i.e. UIKit, Bootstrap, etc.
+* Split the Book results into two rows, first row should be titles starting with A-M and the second row should be titles starting with N-Z.
+* Include a dropdown for hide/show results more than 10.
+* Display the Book Images at one standard size.
+* Must be responsive (desktop, mobile).
+* Add as many bonuses as possible. -->
