@@ -1,0 +1,46 @@
+
+#fed-title{
+  padding: 60px 0;
+}
+/* Book Image Information*/
+
+.shelf-button{
+  margin: 0px auto;
+  text-align: center;
+}
+
+.shelf-title{
+  margin: 20px 0;
+}
+
+.book-container{
+  width: 160px;
+  margin: 0px 50px 0px 0px;
+}
+
+.book-img{
+  border-radius: 10px;
+  height: 220px;
+  width: 160px;
+  margin-bottom: 15px;
+}
+
+.book-title{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.book-author{
+  font-size: 14px;
+  font-style: italic;
+  color: gray;
+}
+
+
+.footer{
+  height: 300px;
+  margin-top: 200px;
+  background-color: lightgray;
+  width: 100%;
+  padding-top: 80px;
+}
